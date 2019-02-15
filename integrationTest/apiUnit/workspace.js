@@ -9,7 +9,7 @@ exports.workspacesGet = async function(expected) {
         .auth('admin','Pwd123456')
         .set({'X-Tenant':'devops'})
         expect(response.statusCode).toBe(200);
-        console.log(response.body)
+        //console.log(response.body)
         expect(response.body.items[0].name).toEqual(expect.stringContaining(expected));
   
 }
