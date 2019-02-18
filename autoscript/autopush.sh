@@ -1,3 +1,3 @@
-git add /root/mygithub/caicloudQA/.
+git add /root/mygithub/caicloudJest/.
 git commit -m "update"
 git push -u origin master

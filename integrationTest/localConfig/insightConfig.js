@@ -1,0 +1,1 @@
+exports.loggingApi = '/admin.logging.caicloud.io/v1'
