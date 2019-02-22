@@ -19,5 +19,8 @@
   "homepage": "https://github.com/caicaihe/caicloudJest#readme",
   "devDependencies": {
     "supertest": "^3.4.2"
+  },
+  "dependencies": {
+    "puppeteer": "^1.12.2"
   }
 }
