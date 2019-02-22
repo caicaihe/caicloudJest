@@ -1,5 +1,5 @@
 const globalConfig = require('../globalConfig/config')
-const localConfig = require('../localConfig/insightconfig')
+const localConfig = require('../localConfig/insightConfig')
 
 
 //devops

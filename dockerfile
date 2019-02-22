@@ -21,13 +21,12 @@ RUN apt-get update -y && \
       wget \
       curl \
       xz-utils -y --no-install-recommends && \
-    wget https://dl.google.com/linux/direct/google-chrome-unstable_current_amd64.deb && \
-    dpkg -i google-chrome*.deb && \
     apt-get install -f && \
     apt-get clean autoclean && \
-    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* google-chrome-unstable_current_amd64.deb
+    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* 
 
 COPY ./ /app
 WORKDIR /app
-RUN npm install babel-core babel-jest babel-preset-env jest puppeteer
-CMD ["jest", "E2ETest"]
+RUN npm install
+RUN npm install jest -g
+CMD ["jest"]

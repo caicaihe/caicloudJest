@@ -1,6 +1,6 @@
 const globalConfig = require('../globalConfig/config')
 const apiUnit = require('../apiUnit/insightLogging')
-const localConfig = require('../localConfig/insightconfig')
+const localConfig = require('../localConfig/insightConfig')
 
 describe("insight.logging test", () =>{
     test("logalertrules create test", async () => {

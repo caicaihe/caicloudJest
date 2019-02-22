@@ -1,6 +1,6 @@
 const request = require("supertest")
 const globalConfig = require('../globalConfig/config')
-const localConfig = require('../localConfig/insightconfig')
+const localConfig = require('../localConfig/insightConfig')
 const apilist = require('../apiConfig/apilist')
 const testData = require('../testData/insightLogging')
 
