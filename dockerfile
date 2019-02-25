@@ -27,7 +27,6 @@ RUN apt-get update -y && \
 
 COPY ./ /app
 WORKDIR /app
-RUN rm -r node_modules
 RUN npm install
 RUN npm install jest -g
 CMD ["jest"]
