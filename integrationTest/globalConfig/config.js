@@ -1,1 +1,1 @@
-exports.url = 'http://192.168.129.30:6002/apis'
+exports.url = 'http://192.168.17.100:6060/hodor/apis'

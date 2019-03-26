@@ -1,1 +1,4 @@
-exports.api = '/admin.devops.caicloud.io/v1'
+exports.api = '/admin.devops.caicloud.io/v2/'
+exports.workspaceNameGithub = 'autogithub'
+
+
